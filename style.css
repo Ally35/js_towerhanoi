@@ -1,0 +1,105 @@
+html{
+    background-color: grey;
+
+}
+
+body{
+    background-color: white; 
+    height: 1000px;
+    width: 1000px;
+    margin: 0 auto; 
+}
+
+h1{
+    text-align: center;
+    margin-top: 2px; 
+    padding-top: 10px; 
+    font-size: 70px;
+    font-family: cursive;
+}
+#towerContainerDiv{
+    display: flex;
+    height: 500px; 
+    width: 900px; 
+    margin: 0 auto; 
+}
+
+#towerContainerDiv p{
+    margin-top: 5px; 
+}
+
+#tower1{
+    width: 33%; 
+    border: 1px solid black; 
+   margin: 0 auto; 
+   text-align: center;
+   font-size: 40px; 
+}
+
+#tower2{
+    width: 33%;  
+    border: 1px solid black; 
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px; 
+}
+
+#tower3{
+    width: 33%;
+    border: 1px solid black; 
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px; 
+}
+
+#towerDiv1{
+    width: 290px; 
+    height: 400px;   
+    background-image: url(tower.png);
+    display: flex;  
+    flex-direction: column-reverse;  
+    align-items: center;
+}
+
+#towerDiv2{
+    width: 290px; 
+    height: 400px; 
+    background-image: url(tower.png);
+}
+
+#towerDiv3{
+    width: 290px; 
+    height: 400px; 
+    background-image: url(tower.png);
+}
+
+#disc1{
+    background-color: blue;
+    width: 100px; 
+    height: 30px;
+}
+
+#disc2{
+    background-color: purple;
+    width: 150px; 
+    height: 30px;
+}
+
+#disc3{
+    background-color: green;
+    width: 200px; 
+    height: 30px;
+}
+
+#disc4{
+    background-color: red;
+    width: 250px; 
+    height: 30px;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 50px; 
+    font-size: 20px; 
+    font-family: fantasy;
+}
